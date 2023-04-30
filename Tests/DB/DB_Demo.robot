@@ -5,6 +5,7 @@ Library           DatabaseLibrary
 Library           OperatingSystem
 Library           Collections
 
+
 *** Variables ***
 ${DBHost}         localhost
 ${DBName}         travis_ci_test

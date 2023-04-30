@@ -5,12 +5,12 @@ Library         OperatingSystem
 ${PATH}         ${CURDIR}/example.txt
 
 *** Test Cases ***
-Example
-    Create File          ${PATH}    Some text
+Test 1
+    Create File          ${PATH}    I really love watching the sunset in the evening.
     File Should Exist    ${PATH}
-    Copy File            ${PATH}    ~/file.txt
+    Copy File            ${PATH}    file.txt
 
 
-Test
-    ${string}   get file     text.txt
+Test 2
+    ${string}   get file     ${PATH}
     should contain  ${string}   love
