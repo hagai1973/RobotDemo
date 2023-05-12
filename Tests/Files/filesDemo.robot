@@ -1,5 +1,6 @@
 *** Settings ***
 Library         OperatingSystem
+Default Tags        demo
 
 *** Variables ***
 ${PATH}         ${CURDIR}/example.txt

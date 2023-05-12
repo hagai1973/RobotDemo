@@ -3,6 +3,7 @@ Documentation  API Testing in Robot Framework
 Library  RequestsLibrary
 Library  JSONLibrary
 Library  Collections
+Default Tags        demo
 
 *** Variables ***
 

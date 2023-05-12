@@ -7,7 +7,7 @@ Suite Setup         Open browser to application
 Test Setup          Go to login page
 Test Teardown       Sign out
 Suite Teardown      Close Browser
-
+Default Tags        demo
 
 
 *** Variables ***

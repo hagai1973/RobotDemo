@@ -1,6 +1,7 @@
 *** Settings ***
 Documentation       Robot Framework XML examples.
 Library             XML    use_lxml=True
+Default Tags        demo
 
 
 *** Variables ***
